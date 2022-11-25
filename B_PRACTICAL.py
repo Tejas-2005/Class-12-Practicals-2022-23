@@ -9,6 +9,8 @@ def search():
             # print(data)
             if data['Roll no']==search:
                 print(data)
+            else:
+                print("Sorry! This roll no. is not in the file....")
     except:
         file.close()
 
