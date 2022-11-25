@@ -1,5 +1,5 @@
 def seperation(char):
-    file = open(".\practic3e.txt","r")
+    file = open(".\practice.txt","r")
     a = file.readlines()
     for i in a:
         for x in i.split():
@@ -7,7 +7,7 @@ def seperation(char):
     file.close()
 
 def counting():
-    file = open(".\practic3e.txt","r")
+    file = open(".\practice.txt","r")
     a = file.readlines()
     vowels = ['a','e','i','o','u','A','E',"I","O","U"]
     v = 0
@@ -22,7 +22,7 @@ def counting():
     print("No. of Vowels",v)
 
 def removal_of_a():
-    file = open(".\practic3e.txt","r")
+    file = open(".\practice.txt","r")
     a = file.readlines()
     for i in a:
         print(i.replace('a',""))
